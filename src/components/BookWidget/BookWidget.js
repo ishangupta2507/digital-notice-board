@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { Box, Typography, Paper } from '@mui/material';
-import './BookWidget.css'; // Import the CSS file for styling
+import './BookWidget.css'; 
 
 const BookWidget = () => {
-  // Sample book and quote data
+  
   const book = {
     title: "To Kill a Mockingbird",
     author: "Harper Lee",

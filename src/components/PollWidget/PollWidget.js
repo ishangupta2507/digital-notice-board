@@ -3,17 +3,17 @@ import { Box, Button, TextField, Typography, Radio, RadioGroup, FormControlLabel
 import "./PollWidget.css";
 
 function PollWidget() {
-  // Default question and options
+  
   const defaultQuestion = "What's your favorite programming language?";
   const defaultOptions = ["JavaScript", "Python"];
 
-  // Initial state setup
+  
   const [question, setQuestion] = useState(defaultQuestion);
   const [options, setOptions] = useState(defaultOptions);
   const [submitted, setSubmitted] = useState(true); // Default to showing the poll
   const [selectedOption, setSelectedOption] = useState("");
 
-  // Event handlers
+  
   const handleQuestionChange = (event) => setQuestion(event.target.value);
 
   const handleOptionChange = (index, event) => {

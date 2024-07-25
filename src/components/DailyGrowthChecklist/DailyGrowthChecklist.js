@@ -1,9 +1,9 @@
-// DailyGrowthChecklist.js
+
 import React, { useState } from 'react';
-import './DailyGrowthChecklist.css'; // Import the CSS file for styling
+import './DailyGrowthChecklist.css'; 
 
 const DailyGrowthChecklist = () => {
-  // Sample data for checklist items
+  
   const [items, setItems] = useState([
     { id: 1, text: 'Exercise for 30 minutes', completed: false },
     { id: 2, text: 'Read a chapter of a book', completed: false },
@@ -12,7 +12,7 @@ const DailyGrowthChecklist = () => {
     { id: 5, text: 'Review daily goals', completed: false }
   ]);
 
-  // Toggle completion status of an item
+  
   const handleToggle = (id) => {
     setItems(items.map(item =>
       item.id === id ? { ...item, completed: !item.completed } : item

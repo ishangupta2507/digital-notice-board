@@ -1,47 +1,47 @@
 .google-spreadsheet-widget {
-  background: #9a348e; /* Background color */
-  border-radius: 10px; /* Rounded corners */
-  padding: 20px; /* Padding inside the widget */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
-  text-align: center; /* Center text alignment */
-  width: 200px; /* Set width to 200px */
-  height: 200px; /* Set height to 200px */
-  display: flex; /* Use flexbox to center content */
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
-  margin: auto; /* Center widget horizontally */
-  overflow: hidden; /* Hide overflow content */
+  background: #9a348e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
 }
 
 .google-spreadsheet-widget .MuiTypography-root {
-  color: #ffffff; /* Set text color to white */
+  color: #ffffff;
 }
 
 .google-spreadsheet-widget .MuiTextField-root {
-  color: #ffffff; /* Set text color inside TextField */
+  color: #ffffff;
 }
 
 .google-spreadsheet-widget .MuiButton-root {
-  color: #ffffff !important; /* Set text color of the button */
-  background-color: #ff4081 !important; /* Set a custom background color for the button */
+  color: #ffffff !important;
+  background-color: #ff4081 !important;
 }
 
 .google-spreadsheet-widget .MuiInputBase-input {
-  color: #ffffff; /* Set text color inside the input */
+  color: #ffffff;
 }
 
 .google-spreadsheet-widget .MuiInputBase-input::placeholder {
-  color: #ffffff !important; /* Set placeholder color to white */
-  opacity: 1; /* Ensure full opacity */
+  color: #ffffff !important;
+  opacity: 1;
 }
 
 .google-spreadsheet-widget .MuiOutlinedInput-root {
   &.Mui-focused fieldset {
-    border-color: #ffffff !important; /* Change border color to white when focused */
+    border-color: #ffffff !important;
   }
 }
 
 .google-spreadsheet-widget .MuiOutlinedInput-notchedOutline {
-  border-color: #ffffff !important; /* Set input border color to white */
+  border-color: #ffffff !important;
 }

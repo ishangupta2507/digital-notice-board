@@ -1,6 +1,5 @@
 import React from 'react';
-import './GoogleCalenderWidget.css'; // Import the CSS file for styling
-
+import './GoogleCalenderWidget.css'; 
 const GoogleCalendarWidget = () => {
   return (
     <div className="calendar-widget">

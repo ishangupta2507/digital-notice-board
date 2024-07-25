@@ -1,12 +1,12 @@
 .calendar-widget {
   position: relative;
   width: 100%;
-  max-width: 250px; /* Adjust the width as needed */
-  height: 250px; /* Adjust the height as needed */
+  max-width: 250px;
+  height: 250px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #f492f0; /* Custom background color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  background-color: #f492f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;

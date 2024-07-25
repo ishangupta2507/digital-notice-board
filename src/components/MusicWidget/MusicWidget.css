@@ -1,39 +1,36 @@
 .music-widget {
-  background-color: #e05780; /* Background color with transparency */
-  border-radius: 10px; /* Rounded corners */
-  padding: 20px; /* Padding inside the widget */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
-  text-align: center; /* Center text alignment */
-  width: 200px; /* Set width to 250px */
-  height: 200px; /* Set height to 250px */
-  display: flex; /* Use flexbox to center content */
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
-  margin: auto; /* Center widget horizontally */
-  overflow: hidden; /* Hide overflow content */
+  background-color: #e05780;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
 }
 
-/* Custom slider style */
 .music-widget .MuiSlider-root {
-  color: #fffaff; /* Color of the slider track and thumb */
+  color: #fffaff;
 }
 
 .music-widget .MuiSlider-thumb {
-  background-color: #fffaff; /* Color of the slider thumb */
-  border: 2px solid #fff; /* Border around the slider thumb */
+  background-color: #fffaff;
+  border: 2px solid #fff;
 }
 
-/* Custom button colors */
 .music-widget .MuiIconButton-root {
-  color: #fffaff; /* Color of the icons */
+  color: #fffaff;
 }
 
 .music-widget .MuiIconButton-root:hover {
-  color: #fffaff; /* Color when hovered */
+  color: #fffaff;
 }
 
-/* Custom text color */
 .music-widget .MuiTypography-root {
-  color: #fffaff; /* Color of text inside the widget */
+  color: #fffaff;
 }
