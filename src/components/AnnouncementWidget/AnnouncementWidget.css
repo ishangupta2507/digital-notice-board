@@ -1,0 +1,43 @@
+.announcement-widget {
+  position: relative;
+  overflow: hidden;
+  background-color: #1f1f2d!important; /* Background color with transparency */
+  border-radius: 25px !important; /* Updated border radius */
+  padding: 20px; /* Padding inside the widget */
+  text-align: center; /* Center text alignment */
+  height: 160px; /* Fixed height for the widget */
+}
+
+.announcement-heading {
+  font-size: 2.3rem !important; /* Adjust size as needed */
+  font-weight: 800;
+  margin-bottom: 10px; /* Space between heading and scrolling text */
+  color: #fdfffc;
+}
+
+.announcement-container {
+  display: flex;
+  animation: scroll 10s linear infinite; /* Scrolling animation */
+}
+
+.announcement-text {
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  flex: none;
+  white-space: nowrap; /* Prevent text from wrapping */
+  padding-right: 50px; /* Space between text elements */
+  font-weight: 600 !important; /* Font weight */
+  font-size: 1.6rem !important; /* Font size */
+  color: #fdfffc;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%); /* Start animation off-screen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End animation off-screen to the left */
+  }
+}
+
+  

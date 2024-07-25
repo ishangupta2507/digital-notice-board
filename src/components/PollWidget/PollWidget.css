@@ -1,0 +1,52 @@
+/* PollWidget.css */
+.poll-widget {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: #ff9f1c;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.poll-widget .MuiRadio-root {
+  color: #ffffff; /* Set your desired color here */
+}
+
+
+.poll-widget .MuiTextField-root,
+.poll-widget .MuiButton-root {
+  margin-bottom: 10px; /* Increased spacing for better fit */
+  font-size: 0.75rem;
+  color: #ffffff; /* Set text color to white */
+}
+
+.poll-widget .MuiTypography-root {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff; /* Set text color to white */
+  text-align: center; /* Center align text */
+}
+
+.poll-widget .MuiFormControlLabel-root {
+  font-size: 0.75rem;
+  color: #ffffff; /* Set text color to white */
+}
+
+/* Optional: Adjust the padding and margins if needed */
+.poll-widget .MuiFormControl-root {
+  margin-top: 20px;
+  margin-bottom: 10px; /* Adjust spacing */
+}
+.poll-widget .vote-button {
+  margin-top: 20px; /* Add space above the button */
+  color: #ffffff !important; /* Ensure text color is white */
+  background-color: #ffbf69 !important; /* Custom background color for the button */
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+.poll-widget .vote-button:hover {
+  background-color: #e91e63 !important; /* Change background color on hover */
+  color: #fff !important; /* Ensure text color is still white */
+}
