@@ -17,6 +17,16 @@
     }
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage",
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "host_permissions": [
+    "*://*.google.com/*"
   ]
 }
