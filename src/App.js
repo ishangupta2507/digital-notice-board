@@ -11,7 +11,6 @@ import AnnouncementWidget from "./components/AnnouncementWidget/AnnouncementWidg
 import GoogleSpreadsheetWidget from "./components/GoogleSpreadsheetWidget/GoogleSpreadsheetWidget";
 import DailyGrowthChecklist from "./components/DailyGrowthChecklist/DailyGrowthChecklist";
 import BookWidget from "./components/BookWidget/BookWidget";
-import ChatBotWidget from "./components/ChatBotWidget/ChatBotWidget";
 
 function App() {
   return (
